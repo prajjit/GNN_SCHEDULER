@@ -1,0 +1,26 @@
+{
+  "nodes": [
+    {"id": 0, "pos": [0, 0]},
+    {"id": 1, "pos": [1, 0]},
+    {"id": 2, "pos": [2, 0]},
+    {"id": 3, "pos": [1, 1]}
+  ],
+  "edges": [
+    {"from": 0, "to": 1, "weight": 45},
+    {"from": 1, "to": 2, "weight": 60},
+    {"from": 0, "to": 2, "weight": 30},
+    {"from": 2, "to": 3, "weight": 50}
+  ],
+  "tags": [
+    {"host":0},
+    {"host": 1},
+    {"host": 2}
+  ],
+  "cg_threshold": 30,
+  "solver": {
+    "timeout_ms": 30000,
+    "optimize": true,
+    "workers": 0,
+    "greedy": false
+  }
+}

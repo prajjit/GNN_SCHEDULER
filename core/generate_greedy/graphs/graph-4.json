@@ -1,0 +1,35 @@
+{
+    "nodes": [
+      {"id": 0, "pos": [0, 0]},
+      {"id": 1, "pos": [1, 1]},
+      {"id": 2, "pos": [2, 0]},
+      {"id": 3, "pos": [1, -1]},
+      {"id": 4, "pos": [3, 1]},
+      {"id": 5, "pos": [3, -1]},
+      {"id": 6, "pos": [4, 0]}
+    ],
+    "edges": [
+      {"from": 0, "to": 1, "weight": 45},
+      {"from": 0, "to": 2, "weight": 38},
+      {"from": 0, "to": 3, "weight": 41},
+      {"from": 1, "to": 2, "weight": 53},
+      {"from": 3, "to": 2, "weight": 49},
+      {"from": 2, "to": 4, "weight": 57},
+      {"from": 2, "to": 5, "weight": 46},
+      {"from": 4, "to": 6, "weight": 61},
+      {"from": 5, "to": 6, "weight": 43},
+      {"from": 1, "to": 4, "weight": 27}
+    ],
+    "tags": [
+      {"host": 0},
+      {"host": 3},
+      {"host": 6}
+    ],
+    "cg_threshold": 35,
+    "solver": {
+      "timeout_ms": 30000,
+      "optimize": true,
+      "workers": 0,
+      "greedy": false
+    }
+  }

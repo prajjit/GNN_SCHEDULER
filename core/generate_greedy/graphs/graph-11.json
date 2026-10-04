@@ -1,0 +1,90 @@
+{
+  "nodes": [
+    {"id": 0, "pos": [0, 0]},
+    {"id": 1, "pos": [1, 1]},
+    {"id": 2, "pos": [2, 0]},
+    {"id": 3, "pos": [3, 1]},
+    {"id": 4, "pos": [4, 0]},
+    {"id": 5, "pos": [0, 2]},
+    {"id": 6, "pos": [1, 3]},
+    {"id": 7, "pos": [2, 2]},
+    {"id": 8, "pos": [3, 3]},
+    {"id": 9, "pos": [4, 2]}
+  ],
+  "edges": [
+    {"from": 0, "to": 1, "weight": 58},
+    {"from": 0, "to": 2, "weight": 47},
+    {"from": 0, "to": 3, "weight": 52},
+    {"from": 0, "to": 4, "weight": 44},
+    {"from": 0, "to": 5, "weight": 61},
+    {"from": 0, "to": 6, "weight": 49},
+    {"from": 0, "to": 7, "weight": 56},
+    {"from": 0, "to": 8, "weight": 42},
+    {"from": 0, "to": 9, "weight": 53},
+
+    {"from": 1, "to": 2, "weight": 63},
+    {"from": 1, "to": 3, "weight": 48},
+    {"from": 1, "to": 4, "weight": 57},
+    {"from": 1, "to": 5, "weight": 45},
+    {"from": 1, "to": 6, "weight": 60},
+    {"from": 1, "to": 7, "weight": 51},
+    {"from": 1, "to": 8, "weight": 55},
+    {"from": 1, "to": 9, "weight": 41},
+
+    {"from": 2, "to": 3, "weight": 59},
+    {"from": 2, "to": 4, "weight": 46},
+    {"from": 2, "to": 5, "weight": 54},
+    {"from": 2, "to": 6, "weight": 38},
+    {"from": 2, "to": 7, "weight": 62},
+    {"from": 2, "to": 8, "weight": 49},
+    {"from": 2, "to": 9, "weight": 58},
+
+    {"from": 3, "to": 4, "weight": 64},
+    {"from": 3, "to": 5, "weight": 43},
+    {"from": 3, "to": 6, "weight": 56},
+    {"from": 3, "to": 7, "weight": 61},
+    {"from": 3, "to": 8, "weight": 47},
+    {"from": 3, "to": 9, "weight": 60},
+
+    {"from": 4, "to": 5, "weight": 52},
+    {"from": 4, "to": 6, "weight": 45},
+    {"from": 4, "to": 7, "weight": 58},
+    {"from": 4, "to": 8, "weight": 63},
+    {"from": 4, "to": 9, "weight": 50},
+
+    {"from": 5, "to": 6, "weight": 57},
+    {"from": 5, "to": 7, "weight": 48},
+    {"from": 5, "to": 8, "weight": 55},
+    {"from": 5, "to": 9, "weight": 40},
+
+    {"from": 6, "to": 7, "weight": 64},
+    {"from": 6, "to": 8, "weight": 53},
+    {"from": 6, "to": 9, "weight": 59},
+
+    {"from": 7, "to": 8, "weight": 62},
+    {"from": 7, "to": 9, "weight": 46},
+
+    {"from": 8, "to": 9, "weight": 57}
+  ],
+  "tags": [
+    {"host": 0},
+    {"host": 0},
+    {"host": 1},
+    {"host": 1},
+    {"host": 2},
+    {"host": 2},
+    {"host": 3},
+    {"host": 4},
+    {"host": 5},
+    {"host": 6},
+    {"host": 7},
+    {"host": 8}
+  ],
+  "cg_threshold": 35,
+  "solver": {
+    "timeout_ms": 30000,
+    "optimize": true,
+    "workers": 0,
+    "greedy": false
+  }
+}

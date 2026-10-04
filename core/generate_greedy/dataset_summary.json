@@ -1,0 +1,379 @@
+{
+  "number_of_graphs": 13,
+  "total_nodes": 100,
+  "total_tags": 99,
+  "total_schedule_slots": 29,
+  "action_distribution": {
+    "OFF": 104,
+    "TAG": 99,
+    "CG": 32
+  },
+  "graph-by-graph statistics": [
+    {
+      "graph_id": "graph-1",
+      "file_name": "graph-1.json",
+      "num_nodes": 4,
+      "num_tags": 3,
+      "num_edges": 4,
+      "num_slots": 2,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 3,
+        "TAG": 3,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "graph-2",
+      "file_name": "graph-2.json",
+      "num_nodes": 6,
+      "num_tags": 3,
+      "num_edges": 9,
+      "num_slots": 2,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 7,
+        "TAG": 3,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "graph-3",
+      "file_name": "graph-3.json",
+      "num_nodes": 7,
+      "num_tags": 3,
+      "num_edges": 8,
+      "num_slots": 1,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 2,
+        "TAG": 3,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "graph-4",
+      "file_name": "graph-4.json",
+      "num_nodes": 7,
+      "num_tags": 3,
+      "num_edges": 10,
+      "num_slots": 1,
+      "cg_threshold": 35,
+      "action_distribution": {
+        "OFF": 2,
+        "TAG": 3,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "graph-5",
+      "file_name": "graph-5.json",
+      "num_nodes": 8,
+      "num_tags": 3,
+      "num_edges": 12,
+      "num_slots": 2,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 11,
+        "TAG": 3,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "graph-6",
+      "file_name": "graph-6.json",
+      "num_nodes": 7,
+      "num_tags": 4,
+      "num_edges": 10,
+      "num_slots": 1,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 2,
+        "TAG": 4,
+        "CG": 1
+      }
+    },
+    {
+      "graph_id": "graph-7",
+      "file_name": "graph-7.json",
+      "num_nodes": 8,
+      "num_tags": 4,
+      "num_edges": 11,
+      "num_slots": 1,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 2,
+        "TAG": 4,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "graph-8",
+      "file_name": "graph-8.json",
+      "num_nodes": 8,
+      "num_tags": 11,
+      "num_edges": 22,
+      "num_slots": 3,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 10,
+        "TAG": 11,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "graph-9",
+      "file_name": "graph-9.json",
+      "num_nodes": 9,
+      "num_tags": 14,
+      "num_edges": 26,
+      "num_slots": 4,
+      "cg_threshold": 35,
+      "action_distribution": {
+        "OFF": 18,
+        "TAG": 14,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "graph-10",
+      "file_name": "graph-10.json",
+      "num_nodes": 8,
+      "num_tags": 10,
+      "num_edges": 23,
+      "num_slots": 2,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 4,
+        "TAG": 10,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "graph-11",
+      "file_name": "graph-11.json",
+      "num_nodes": 10,
+      "num_tags": 12,
+      "num_edges": 45,
+      "num_slots": 2,
+      "cg_threshold": 35,
+      "action_distribution": {
+        "OFF": 6,
+        "TAG": 12,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "graph-12",
+      "file_name": "graph-12.json",
+      "num_nodes": 10,
+      "num_tags": 14,
+      "num_edges": 45,
+      "num_slots": 5,
+      "cg_threshold": 35,
+      "action_distribution": {
+        "OFF": 31,
+        "TAG": 14,
+        "CG": 5
+      }
+    },
+    {
+      "graph_id": "graphg0",
+      "file_name": "graphg0.json",
+      "num_nodes": 8,
+      "num_tags": 15,
+      "num_edges": 23,
+      "num_slots": 3,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 6,
+        "TAG": 15,
+        "CG": 3
+      }
+    }
+  ],
+  "graph_by_graph_statistics": [
+    {
+      "graph_id": "graph-1",
+      "file_name": "graph-1.json",
+      "num_nodes": 4,
+      "num_tags": 3,
+      "num_edges": 4,
+      "num_slots": 2,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 3,
+        "TAG": 3,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "graph-2",
+      "file_name": "graph-2.json",
+      "num_nodes": 6,
+      "num_tags": 3,
+      "num_edges": 9,
+      "num_slots": 2,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 7,
+        "TAG": 3,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "graph-3",
+      "file_name": "graph-3.json",
+      "num_nodes": 7,
+      "num_tags": 3,
+      "num_edges": 8,
+      "num_slots": 1,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 2,
+        "TAG": 3,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "graph-4",
+      "file_name": "graph-4.json",
+      "num_nodes": 7,
+      "num_tags": 3,
+      "num_edges": 10,
+      "num_slots": 1,
+      "cg_threshold": 35,
+      "action_distribution": {
+        "OFF": 2,
+        "TAG": 3,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "graph-5",
+      "file_name": "graph-5.json",
+      "num_nodes": 8,
+      "num_tags": 3,
+      "num_edges": 12,
+      "num_slots": 2,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 11,
+        "TAG": 3,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "graph-6",
+      "file_name": "graph-6.json",
+      "num_nodes": 7,
+      "num_tags": 4,
+      "num_edges": 10,
+      "num_slots": 1,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 2,
+        "TAG": 4,
+        "CG": 1
+      }
+    },
+    {
+      "graph_id": "graph-7",
+      "file_name": "graph-7.json",
+      "num_nodes": 8,
+      "num_tags": 4,
+      "num_edges": 11,
+      "num_slots": 1,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 2,
+        "TAG": 4,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "graph-8",
+      "file_name": "graph-8.json",
+      "num_nodes": 8,
+      "num_tags": 11,
+      "num_edges": 22,
+      "num_slots": 3,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 10,
+        "TAG": 11,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "graph-9",
+      "file_name": "graph-9.json",
+      "num_nodes": 9,
+      "num_tags": 14,
+      "num_edges": 26,
+      "num_slots": 4,
+      "cg_threshold": 35,
+      "action_distribution": {
+        "OFF": 18,
+        "TAG": 14,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "graph-10",
+      "file_name": "graph-10.json",
+      "num_nodes": 8,
+      "num_tags": 10,
+      "num_edges": 23,
+      "num_slots": 2,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 4,
+        "TAG": 10,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "graph-11",
+      "file_name": "graph-11.json",
+      "num_nodes": 10,
+      "num_tags": 12,
+      "num_edges": 45,
+      "num_slots": 2,
+      "cg_threshold": 35,
+      "action_distribution": {
+        "OFF": 6,
+        "TAG": 12,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "graph-12",
+      "file_name": "graph-12.json",
+      "num_nodes": 10,
+      "num_tags": 14,
+      "num_edges": 45,
+      "num_slots": 5,
+      "cg_threshold": 35,
+      "action_distribution": {
+        "OFF": 31,
+        "TAG": 14,
+        "CG": 5
+      }
+    },
+    {
+      "graph_id": "graphg0",
+      "file_name": "graphg0.json",
+      "num_nodes": 8,
+      "num_tags": 15,
+      "num_edges": 23,
+      "num_slots": 3,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 6,
+        "TAG": 15,
+        "CG": 3
+      }
+    }
+  ]
+}

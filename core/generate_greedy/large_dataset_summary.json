@@ -1,0 +1,7534 @@
+{
+  "total_requested": 500,
+  "total_successful": 500,
+  "total_failed": 8,
+  "failure_reasons": {
+    "Scheduler exception: Exception": 8
+  },
+  "total_nodes": 4109,
+  "total_tags": 3427,
+  "total_slots": 1238,
+  "action_distribution": {
+    "OFF": 5147,
+    "TAG": 3427,
+    "CG": 1553
+  },
+  "topology_type_distribution": {
+    "lattice": 124,
+    "random": 126,
+    "geometricr": 127,
+    "geometric": 123
+  },
+  "solver_mode_distribution": {
+    "normal": 500
+  },
+  "min_nodes": 4,
+  "max_nodes": 12,
+  "min_tags": 2,
+  "max_tags": 14,
+  "min_slots": 1,
+  "max_slots": 6,
+  "elapsed_seconds": 21.65,
+  "graph_by_graph_metadata": [
+    {
+      "graph_id": "synth_0001",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 2,
+      "num_edges": 10,
+      "num_slots": 1,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 5,
+        "TAG": 2,
+        "CG": 1
+      }
+    },
+    {
+      "graph_id": "synth_0002",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 10,
+      "num_tags": 5,
+      "num_edges": 27,
+      "num_slots": 1,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 4,
+        "TAG": 5,
+        "CG": 1
+      }
+    },
+    {
+      "graph_id": "synth_0003",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 5,
+      "num_tags": 6,
+      "num_edges": 9,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 2,
+        "TAG": 6,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0004",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 4,
+      "num_tags": 6,
+      "num_edges": 4,
+      "num_slots": 3,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 3,
+        "TAG": 6,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0005",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 3,
+      "num_edges": 17,
+      "num_slots": 2,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 19,
+        "TAG": 3,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0006",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 11,
+      "num_tags": 4,
+      "num_edges": 27,
+      "num_slots": 1,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 5,
+        "TAG": 4,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0007",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 9,
+      "num_edges": 18,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 11,
+        "TAG": 9,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0008",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 7,
+      "num_tags": 12,
+      "num_edges": 13,
+      "num_slots": 4,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 11,
+        "TAG": 12,
+        "CG": 5
+      }
+    },
+    {
+      "graph_id": "synth_0009",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 6,
+      "num_edges": 10,
+      "num_slots": 3,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 13,
+        "TAG": 6,
+        "CG": 5
+      }
+    },
+    {
+      "graph_id": "synth_0010",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 5,
+      "num_edges": 16,
+      "num_slots": 2,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 9,
+        "TAG": 5,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0011",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 7,
+      "num_tags": 3,
+      "num_edges": 11,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 9,
+        "TAG": 3,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0012",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 10,
+      "num_tags": 9,
+      "num_edges": 21,
+      "num_slots": 4,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 26,
+        "TAG": 9,
+        "CG": 5
+      }
+    },
+    {
+      "graph_id": "synth_0013",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 10,
+      "num_edges": 10,
+      "num_slots": 3,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 9,
+        "TAG": 10,
+        "CG": 5
+      }
+    },
+    {
+      "graph_id": "synth_0014",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 11,
+      "num_tags": 10,
+      "num_edges": 39,
+      "num_slots": 2,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 9,
+        "TAG": 10,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0015",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 10,
+      "num_tags": 7,
+      "num_edges": 18,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 11,
+        "TAG": 7,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0016",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 12,
+      "num_edges": 17,
+      "num_slots": 3,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 19,
+        "TAG": 12,
+        "CG": 5
+      }
+    },
+    {
+      "graph_id": "synth_0017",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 13,
+      "num_edges": 8,
+      "num_slots": 4,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 12,
+        "TAG": 13,
+        "CG": 7
+      }
+    },
+    {
+      "graph_id": "synth_0018",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 9,
+      "num_edges": 25,
+      "num_slots": 3,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 12,
+        "TAG": 9,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0019",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 5,
+      "num_tags": 9,
+      "num_edges": 6,
+      "num_slots": 4,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 7,
+        "TAG": 9,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0020",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 6,
+      "num_tags": 3,
+      "num_edges": 7,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 7,
+        "TAG": 3,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0021",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 11,
+      "num_tags": 8,
+      "num_edges": 24,
+      "num_slots": 2,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 10,
+        "TAG": 8,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0022",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 5,
+      "num_tags": 8,
+      "num_edges": 10,
+      "num_slots": 4,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 8,
+        "TAG": 8,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0023",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 5,
+      "num_tags": 3,
+      "num_edges": 6,
+      "num_slots": 1,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 0,
+        "TAG": 3,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0024",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 9,
+      "num_tags": 14,
+      "num_edges": 12,
+      "num_slots": 4,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 13,
+        "TAG": 14,
+        "CG": 9
+      }
+    },
+    {
+      "graph_id": "synth_0025",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 8,
+      "num_edges": 38,
+      "num_slots": 2,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 14,
+        "TAG": 8,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0026",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 10,
+      "num_edges": 38,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 11,
+        "TAG": 10,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0027",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 8,
+      "num_edges": 63,
+      "num_slots": 2,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 14,
+        "TAG": 8,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0028",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 9,
+      "num_edges": 17,
+      "num_slots": 3,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 23,
+        "TAG": 9,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0029",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 4,
+      "num_tags": 2,
+      "num_edges": 3,
+      "num_slots": 1,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 0,
+        "TAG": 2,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0030",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 9,
+      "num_tags": 13,
+      "num_edges": 20,
+      "num_slots": 5,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 27,
+        "TAG": 13,
+        "CG": 5
+      }
+    },
+    {
+      "graph_id": "synth_0031",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 13,
+      "num_edges": 20,
+      "num_slots": 3,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 8,
+        "TAG": 13,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0032",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 5,
+      "num_edges": 17,
+      "num_slots": 2,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 15,
+        "TAG": 5,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0033",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 2,
+      "num_edges": 13,
+      "num_slots": 1,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 5,
+        "TAG": 2,
+        "CG": 1
+      }
+    },
+    {
+      "graph_id": "synth_0034",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 5,
+      "num_tags": 7,
+      "num_edges": 8,
+      "num_slots": 3,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 5,
+        "TAG": 7,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0035",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 9,
+      "num_tags": 3,
+      "num_edges": 27,
+      "num_slots": 1,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 5,
+        "TAG": 3,
+        "CG": 1
+      }
+    },
+    {
+      "graph_id": "synth_0036",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 9,
+      "num_tags": 11,
+      "num_edges": 12,
+      "num_slots": 5,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 27,
+        "TAG": 11,
+        "CG": 7
+      }
+    },
+    {
+      "graph_id": "synth_0037",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 8,
+      "num_edges": 36,
+      "num_slots": 2,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 14,
+        "TAG": 8,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0038",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 11,
+      "num_tags": 10,
+      "num_edges": 27,
+      "num_slots": 3,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 20,
+        "TAG": 10,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0039",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 11,
+      "num_tags": 2,
+      "num_edges": 21,
+      "num_slots": 1,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 7,
+        "TAG": 2,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0040",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 10,
+      "num_edges": 10,
+      "num_slots": 3,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 6,
+        "TAG": 10,
+        "CG": 8
+      }
+    },
+    {
+      "graph_id": "synth_0041",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 14,
+      "num_edges": 15,
+      "num_slots": 5,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 21,
+        "TAG": 14,
+        "CG": 5
+      }
+    },
+    {
+      "graph_id": "synth_0042",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 7,
+      "num_tags": 6,
+      "num_edges": 11,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 6,
+        "TAG": 6,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0043",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 9,
+      "num_tags": 4,
+      "num_edges": 30,
+      "num_slots": 2,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 12,
+        "TAG": 4,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0044",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 10,
+      "num_tags": 8,
+      "num_edges": 13,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 7,
+        "TAG": 8,
+        "CG": 5
+      }
+    },
+    {
+      "graph_id": "synth_0045",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 10,
+      "num_tags": 8,
+      "num_edges": 20,
+      "num_slots": 2,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 10,
+        "TAG": 8,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0046",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 3,
+      "num_edges": 14,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 11,
+        "TAG": 3,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0047",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 5,
+      "num_tags": 2,
+      "num_edges": 6,
+      "num_slots": 1,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 2,
+        "TAG": 2,
+        "CG": 1
+      }
+    },
+    {
+      "graph_id": "synth_0048",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 7,
+      "num_edges": 17,
+      "num_slots": 2,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 13,
+        "TAG": 7,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0049",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 9,
+      "num_tags": 4,
+      "num_edges": 19,
+      "num_slots": 1,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 4,
+        "TAG": 4,
+        "CG": 1
+      }
+    },
+    {
+      "graph_id": "synth_0050",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 6,
+      "num_tags": 7,
+      "num_edges": 12,
+      "num_slots": 3,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 8,
+        "TAG": 7,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0051",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 3,
+      "num_edges": 18,
+      "num_slots": 1,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 4,
+        "TAG": 3,
+        "CG": 1
+      }
+    },
+    {
+      "graph_id": "synth_0052",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 6,
+      "num_tags": 6,
+      "num_edges": 7,
+      "num_slots": 3,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 8,
+        "TAG": 6,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0053",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 6,
+      "num_tags": 3,
+      "num_edges": 8,
+      "num_slots": 2,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 7,
+        "TAG": 3,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0054",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 5,
+      "num_tags": 2,
+      "num_edges": 10,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 6,
+        "TAG": 2,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0055",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 5,
+      "num_tags": 6,
+      "num_edges": 7,
+      "num_slots": 3,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 6,
+        "TAG": 6,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0056",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 6,
+      "num_tags": 7,
+      "num_edges": 8,
+      "num_slots": 3,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 7,
+        "TAG": 7,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0057",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 14,
+      "num_edges": 24,
+      "num_slots": 4,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 14,
+        "TAG": 14,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0058",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 5,
+      "num_edges": 9,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 8,
+        "TAG": 5,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0059",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 10,
+      "num_edges": 17,
+      "num_slots": 4,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 30,
+        "TAG": 10,
+        "CG": 8
+      }
+    },
+    {
+      "graph_id": "synth_0060",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 9,
+      "num_tags": 8,
+      "num_edges": 19,
+      "num_slots": 3,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 16,
+        "TAG": 8,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0061",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 4,
+      "num_tags": 5,
+      "num_edges": 6,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 1,
+        "TAG": 5,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0062",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 10,
+      "num_tags": 11,
+      "num_edges": 19,
+      "num_slots": 4,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 24,
+        "TAG": 11,
+        "CG": 5
+      }
+    },
+    {
+      "graph_id": "synth_0063",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 9,
+      "num_tags": 7,
+      "num_edges": 12,
+      "num_slots": 3,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 16,
+        "TAG": 7,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0064",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 5,
+      "num_tags": 2,
+      "num_edges": 6,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 6,
+        "TAG": 2,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0065",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 10,
+      "num_edges": 24,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 4,
+        "TAG": 10,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0066",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 4,
+      "num_tags": 2,
+      "num_edges": 5,
+      "num_slots": 1,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 1,
+        "TAG": 2,
+        "CG": 1
+      }
+    },
+    {
+      "graph_id": "synth_0067",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 8,
+      "num_edges": 10,
+      "num_slots": 3,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 11,
+        "TAG": 8,
+        "CG": 5
+      }
+    },
+    {
+      "graph_id": "synth_0068",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 9,
+      "num_edges": 49,
+      "num_slots": 2,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 13,
+        "TAG": 9,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0069",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 5,
+      "num_edges": 20,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 17,
+        "TAG": 5,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0070",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 11,
+      "num_tags": 5,
+      "num_edges": 53,
+      "num_slots": 1,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 5,
+        "TAG": 5,
+        "CG": 1
+      }
+    },
+    {
+      "graph_id": "synth_0071",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 13,
+      "num_edges": 17,
+      "num_slots": 3,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 16,
+        "TAG": 13,
+        "CG": 7
+      }
+    },
+    {
+      "graph_id": "synth_0072",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 7,
+      "num_tags": 8,
+      "num_edges": 17,
+      "num_slots": 3,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 10,
+        "TAG": 8,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0073",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 6,
+      "num_edges": 22,
+      "num_slots": 3,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 27,
+        "TAG": 6,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0074",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 6,
+      "num_tags": 9,
+      "num_edges": 11,
+      "num_slots": 4,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 11,
+        "TAG": 9,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0075",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 11,
+      "num_edges": 10,
+      "num_slots": 5,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 22,
+        "TAG": 11,
+        "CG": 7
+      }
+    },
+    {
+      "graph_id": "synth_0076",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 6,
+      "num_tags": 3,
+      "num_edges": 8,
+      "num_slots": 2,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 7,
+        "TAG": 3,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0077",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 6,
+      "num_tags": 3,
+      "num_edges": 14,
+      "num_slots": 1,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 2,
+        "TAG": 3,
+        "CG": 1
+      }
+    },
+    {
+      "graph_id": "synth_0078",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 6,
+      "num_tags": 8,
+      "num_edges": 8,
+      "num_slots": 3,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 7,
+        "TAG": 8,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0079",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 10,
+      "num_tags": 6,
+      "num_edges": 13,
+      "num_slots": 2,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 10,
+        "TAG": 6,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0080",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 9,
+      "num_tags": 10,
+      "num_edges": 22,
+      "num_slots": 3,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 14,
+        "TAG": 10,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0081",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 4,
+      "num_tags": 3,
+      "num_edges": 6,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 3,
+        "TAG": 3,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0082",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 10,
+      "num_tags": 3,
+      "num_edges": 34,
+      "num_slots": 1,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 6,
+        "TAG": 3,
+        "CG": 1
+      }
+    },
+    {
+      "graph_id": "synth_0083",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 4,
+      "num_tags": 5,
+      "num_edges": 3,
+      "num_slots": 3,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 4,
+        "TAG": 5,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0084",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 10,
+      "num_edges": 16,
+      "num_slots": 4,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 18,
+        "TAG": 10,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0085",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 7,
+      "num_tags": 7,
+      "num_edges": 13,
+      "num_slots": 3,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 11,
+        "TAG": 7,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0086",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 4,
+      "num_tags": 3,
+      "num_edges": 5,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 3,
+        "TAG": 3,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0087",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 11,
+      "num_edges": 10,
+      "num_slots": 3,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 7,
+        "TAG": 11,
+        "CG": 6
+      }
+    },
+    {
+      "graph_id": "synth_0088",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 4,
+      "num_edges": 34,
+      "num_slots": 2,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 17,
+        "TAG": 4,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0089",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 11,
+      "num_edges": 46,
+      "num_slots": 3,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 22,
+        "TAG": 11,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0090",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 4,
+      "num_tags": 7,
+      "num_edges": 6,
+      "num_slots": 3,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 2,
+        "TAG": 7,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0091",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 7,
+      "num_edges": 17,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 14,
+        "TAG": 7,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0092",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 10,
+      "num_edges": 14,
+      "num_slots": 3,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 11,
+        "TAG": 10,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0093",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 13,
+      "num_edges": 17,
+      "num_slots": 4,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 15,
+        "TAG": 13,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0094",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 10,
+      "num_tags": 9,
+      "num_edges": 27,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 9,
+        "TAG": 9,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0095",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 3,
+      "num_edges": 17,
+      "num_slots": 2,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 18,
+        "TAG": 3,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0096",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 11,
+      "num_tags": 9,
+      "num_edges": 33,
+      "num_slots": 3,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 21,
+        "TAG": 9,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0097",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 11,
+      "num_edges": 19,
+      "num_slots": 3,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 10,
+        "TAG": 11,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0098",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 11,
+      "num_tags": 10,
+      "num_edges": 26,
+      "num_slots": 3,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 19,
+        "TAG": 10,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0099",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 10,
+      "num_tags": 13,
+      "num_edges": 13,
+      "num_slots": 3,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 7,
+        "TAG": 13,
+        "CG": 10
+      }
+    },
+    {
+      "graph_id": "synth_0100",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 9,
+      "num_tags": 3,
+      "num_edges": 22,
+      "num_slots": 2,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 13,
+        "TAG": 3,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0101",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 9,
+      "num_edges": 26,
+      "num_slots": 4,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 19,
+        "TAG": 9,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0102",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 6,
+      "num_tags": 2,
+      "num_edges": 13,
+      "num_slots": 1,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 3,
+        "TAG": 2,
+        "CG": 1
+      }
+    },
+    {
+      "graph_id": "synth_0103",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 5,
+      "num_edges": 10,
+      "num_slots": 2,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 8,
+        "TAG": 5,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0104",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 10,
+      "num_tags": 11,
+      "num_edges": 32,
+      "num_slots": 3,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 16,
+        "TAG": 11,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0105",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 7,
+      "num_tags": 4,
+      "num_edges": 21,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 8,
+        "TAG": 4,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0106",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 7,
+      "num_tags": 9,
+      "num_edges": 15,
+      "num_slots": 2,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 3,
+        "TAG": 9,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0107",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 7,
+      "num_edges": 10,
+      "num_slots": 3,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 12,
+        "TAG": 7,
+        "CG": 5
+      }
+    },
+    {
+      "graph_id": "synth_0108",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 4,
+      "num_tags": 6,
+      "num_edges": 3,
+      "num_slots": 4,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 6,
+        "TAG": 6,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0109",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 6,
+      "num_tags": 4,
+      "num_edges": 15,
+      "num_slots": 1,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 1,
+        "TAG": 4,
+        "CG": 1
+      }
+    },
+    {
+      "graph_id": "synth_0110",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 10,
+      "num_tags": 5,
+      "num_edges": 27,
+      "num_slots": 2,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 13,
+        "TAG": 5,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0111",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 9,
+      "num_tags": 4,
+      "num_edges": 12,
+      "num_slots": 1,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 3,
+        "TAG": 4,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0112",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 11,
+      "num_edges": 43,
+      "num_slots": 3,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 22,
+        "TAG": 11,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0113",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 6,
+      "num_tags": 10,
+      "num_edges": 15,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 0,
+        "TAG": 10,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0114",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 3,
+      "num_edges": 33,
+      "num_slots": 1,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 7,
+        "TAG": 3,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0115",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 9,
+      "num_edges": 17,
+      "num_slots": 2,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 11,
+        "TAG": 9,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0116",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 5,
+      "num_tags": 4,
+      "num_edges": 7,
+      "num_slots": 2,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 4,
+        "TAG": 4,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0117",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 5,
+      "num_tags": 6,
+      "num_edges": 10,
+      "num_slots": 3,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 6,
+        "TAG": 6,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0118",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 5,
+      "num_tags": 3,
+      "num_edges": 8,
+      "num_slots": 1,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 1,
+        "TAG": 3,
+        "CG": 1
+      }
+    },
+    {
+      "graph_id": "synth_0119",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 5,
+      "num_tags": 2,
+      "num_edges": 9,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 6,
+        "TAG": 2,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0120",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 4,
+      "num_tags": 2,
+      "num_edges": 6,
+      "num_slots": 1,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 1,
+        "TAG": 2,
+        "CG": 1
+      }
+    },
+    {
+      "graph_id": "synth_0121",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 10,
+      "num_tags": 9,
+      "num_edges": 43,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 9,
+        "TAG": 9,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0122",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 9,
+      "num_edges": 17,
+      "num_slots": 3,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 23,
+        "TAG": 9,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0123",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 10,
+      "num_tags": 8,
+      "num_edges": 26,
+      "num_slots": 3,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 19,
+        "TAG": 8,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0124",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 5,
+      "num_tags": 4,
+      "num_edges": 6,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 4,
+        "TAG": 4,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0125",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 10,
+      "num_tags": 5,
+      "num_edges": 36,
+      "num_slots": 2,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 13,
+        "TAG": 5,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0126",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 6,
+      "num_tags": 2,
+      "num_edges": 7,
+      "num_slots": 1,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 2,
+        "TAG": 2,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0127",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 11,
+      "num_tags": 7,
+      "num_edges": 38,
+      "num_slots": 3,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 23,
+        "TAG": 7,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0128",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 10,
+      "num_tags": 6,
+      "num_edges": 26,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 12,
+        "TAG": 6,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0129",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 10,
+      "num_tags": 12,
+      "num_edges": 30,
+      "num_slots": 4,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 24,
+        "TAG": 12,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0130",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 6,
+      "num_tags": 4,
+      "num_edges": 7,
+      "num_slots": 2,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 6,
+        "TAG": 4,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0131",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 11,
+      "num_tags": 10,
+      "num_edges": 31,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 9,
+        "TAG": 10,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0132",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 10,
+      "num_tags": 14,
+      "num_edges": 30,
+      "num_slots": 3,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 13,
+        "TAG": 14,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0133",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 11,
+      "num_tags": 13,
+      "num_edges": 39,
+      "num_slots": 2,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 6,
+        "TAG": 13,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0134",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 6,
+      "num_tags": 3,
+      "num_edges": 7,
+      "num_slots": 2,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 7,
+        "TAG": 3,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0135",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 5,
+      "num_tags": 2,
+      "num_edges": 7,
+      "num_slots": 2,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 6,
+        "TAG": 2,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0136",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 5,
+      "num_edges": 24,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 17,
+        "TAG": 5,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0137",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 4,
+      "num_tags": 4,
+      "num_edges": 4,
+      "num_slots": 4,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 8,
+        "TAG": 4,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0138",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 5,
+      "num_edges": 10,
+      "num_slots": 2,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 8,
+        "TAG": 5,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0139",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 4,
+      "num_edges": 47,
+      "num_slots": 1,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 7,
+        "TAG": 4,
+        "CG": 1
+      }
+    },
+    {
+      "graph_id": "synth_0140",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 7,
+      "num_tags": 2,
+      "num_edges": 10,
+      "num_slots": 1,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 4,
+        "TAG": 2,
+        "CG": 1
+      }
+    },
+    {
+      "graph_id": "synth_0141",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 4,
+      "num_tags": 7,
+      "num_edges": 6,
+      "num_slots": 3,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 2,
+        "TAG": 7,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0142",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 6,
+      "num_edges": 17,
+      "num_slots": 2,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 14,
+        "TAG": 6,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0143",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 11,
+      "num_tags": 11,
+      "num_edges": 31,
+      "num_slots": 2,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 8,
+        "TAG": 11,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0144",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 4,
+      "num_tags": 3,
+      "num_edges": 6,
+      "num_slots": 1,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 0,
+        "TAG": 3,
+        "CG": 1
+      }
+    },
+    {
+      "graph_id": "synth_0145",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 5,
+      "num_tags": 3,
+      "num_edges": 9,
+      "num_slots": 2,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 5,
+        "TAG": 3,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0146",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 4,
+      "num_tags": 5,
+      "num_edges": 3,
+      "num_slots": 3,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 3,
+        "TAG": 5,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0147",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 5,
+      "num_tags": 8,
+      "num_edges": 7,
+      "num_slots": 3,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 4,
+        "TAG": 8,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0148",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 12,
+      "num_edges": 18,
+      "num_slots": 4,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 16,
+        "TAG": 12,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0149",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 4,
+      "num_tags": 2,
+      "num_edges": 6,
+      "num_slots": 1,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 1,
+        "TAG": 2,
+        "CG": 1
+      }
+    },
+    {
+      "graph_id": "synth_0150",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 6,
+      "num_tags": 4,
+      "num_edges": 7,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 5,
+        "TAG": 4,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0151",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 4,
+      "num_tags": 5,
+      "num_edges": 4,
+      "num_slots": 3,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 4,
+        "TAG": 5,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0152",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 5,
+      "num_tags": 7,
+      "num_edges": 8,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 1,
+        "TAG": 7,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0153",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 10,
+      "num_tags": 12,
+      "num_edges": 31,
+      "num_slots": 3,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 15,
+        "TAG": 12,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0154",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 4,
+      "num_edges": 17,
+      "num_slots": 1,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 6,
+        "TAG": 4,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0155",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 7,
+      "num_tags": 2,
+      "num_edges": 10,
+      "num_slots": 1,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 4,
+        "TAG": 2,
+        "CG": 1
+      }
+    },
+    {
+      "graph_id": "synth_0156",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 5,
+      "num_tags": 7,
+      "num_edges": 10,
+      "num_slots": 3,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 5,
+        "TAG": 7,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0157",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 9,
+      "num_tags": 5,
+      "num_edges": 34,
+      "num_slots": 1,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 3,
+        "TAG": 5,
+        "CG": 1
+      }
+    },
+    {
+      "graph_id": "synth_0158",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 6,
+      "num_edges": 10,
+      "num_slots": 2,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 7,
+        "TAG": 6,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0159",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 5,
+      "num_tags": 7,
+      "num_edges": 6,
+      "num_slots": 3,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 4,
+        "TAG": 7,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0160",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 9,
+      "num_tags": 4,
+      "num_edges": 24,
+      "num_slots": 1,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 4,
+        "TAG": 4,
+        "CG": 1
+      }
+    },
+    {
+      "graph_id": "synth_0161",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 4,
+      "num_tags": 6,
+      "num_edges": 6,
+      "num_slots": 2,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 0,
+        "TAG": 6,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0162",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 6,
+      "num_tags": 7,
+      "num_edges": 7,
+      "num_slots": 4,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 12,
+        "TAG": 7,
+        "CG": 5
+      }
+    },
+    {
+      "graph_id": "synth_0163",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 11,
+      "num_tags": 12,
+      "num_edges": 36,
+      "num_slots": 3,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 18,
+        "TAG": 12,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0164",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 9,
+      "num_tags": 13,
+      "num_edges": 18,
+      "num_slots": 4,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 17,
+        "TAG": 13,
+        "CG": 6
+      }
+    },
+    {
+      "graph_id": "synth_0165",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 10,
+      "num_tags": 14,
+      "num_edges": 28,
+      "num_slots": 5,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 30,
+        "TAG": 14,
+        "CG": 6
+      }
+    },
+    {
+      "graph_id": "synth_0166",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 6,
+      "num_tags": 6,
+      "num_edges": 7,
+      "num_slots": 4,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 14,
+        "TAG": 6,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0167",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 11,
+      "num_tags": 10,
+      "num_edges": 32,
+      "num_slots": 3,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 20,
+        "TAG": 10,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0168",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 10,
+      "num_tags": 3,
+      "num_edges": 18,
+      "num_slots": 1,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 5,
+        "TAG": 3,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0169",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 7,
+      "num_tags": 8,
+      "num_edges": 17,
+      "num_slots": 2,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 4,
+        "TAG": 8,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0170",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 12,
+      "num_edges": 17,
+      "num_slots": 3,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 17,
+        "TAG": 12,
+        "CG": 7
+      }
+    },
+    {
+      "graph_id": "synth_0171",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 7,
+      "num_tags": 4,
+      "num_edges": 15,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 8,
+        "TAG": 4,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0172",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 9,
+      "num_tags": 6,
+      "num_edges": 35,
+      "num_slots": 3,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 18,
+        "TAG": 6,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0173",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 11,
+      "num_tags": 8,
+      "num_edges": 37,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 12,
+        "TAG": 8,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0174",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 6,
+      "num_edges": 17,
+      "num_slots": 2,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 14,
+        "TAG": 6,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0175",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 5,
+      "num_tags": 5,
+      "num_edges": 6,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 3,
+        "TAG": 5,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0176",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 4,
+      "num_edges": 12,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 10,
+        "TAG": 4,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0177",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 10,
+      "num_tags": 11,
+      "num_edges": 13,
+      "num_slots": 3,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 13,
+        "TAG": 11,
+        "CG": 6
+      }
+    },
+    {
+      "graph_id": "synth_0178",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 11,
+      "num_tags": 7,
+      "num_edges": 22,
+      "num_slots": 2,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 12,
+        "TAG": 7,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0179",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 10,
+      "num_tags": 5,
+      "num_edges": 21,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 13,
+        "TAG": 5,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0180",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 10,
+      "num_edges": 13,
+      "num_slots": 3,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 10,
+        "TAG": 10,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0181",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 8,
+      "num_edges": 10,
+      "num_slots": 3,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 11,
+        "TAG": 8,
+        "CG": 5
+      }
+    },
+    {
+      "graph_id": "synth_0182",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 7,
+      "num_tags": 12,
+      "num_edges": 10,
+      "num_slots": 4,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 11,
+        "TAG": 12,
+        "CG": 5
+      }
+    },
+    {
+      "graph_id": "synth_0183",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 9,
+      "num_tags": 13,
+      "num_edges": 18,
+      "num_slots": 5,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 24,
+        "TAG": 13,
+        "CG": 8
+      }
+    },
+    {
+      "graph_id": "synth_0184",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 7,
+      "num_tags": 12,
+      "num_edges": 19,
+      "num_slots": 3,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 6,
+        "TAG": 12,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0185",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 6,
+      "num_tags": 6,
+      "num_edges": 7,
+      "num_slots": 2,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 3,
+        "TAG": 6,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0186",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 9,
+      "num_tags": 9,
+      "num_edges": 15,
+      "num_slots": 2,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 5,
+        "TAG": 9,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0187",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 4,
+      "num_tags": 5,
+      "num_edges": 6,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 1,
+        "TAG": 5,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0188",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 4,
+      "num_tags": 2,
+      "num_edges": 3,
+      "num_slots": 2,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 4,
+        "TAG": 2,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0189",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 3,
+      "num_edges": 17,
+      "num_slots": 1,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 7,
+        "TAG": 3,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0190",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 9,
+      "num_tags": 9,
+      "num_edges": 15,
+      "num_slots": 3,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 14,
+        "TAG": 9,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0191",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 11,
+      "num_tags": 6,
+      "num_edges": 26,
+      "num_slots": 3,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 23,
+        "TAG": 6,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0192",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 9,
+      "num_tags": 4,
+      "num_edges": 28,
+      "num_slots": 1,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 4,
+        "TAG": 4,
+        "CG": 1
+      }
+    },
+    {
+      "graph_id": "synth_0193",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 3,
+      "num_edges": 17,
+      "num_slots": 1,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 8,
+        "TAG": 3,
+        "CG": 1
+      }
+    },
+    {
+      "graph_id": "synth_0194",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 7,
+      "num_tags": 5,
+      "num_edges": 15,
+      "num_slots": 3,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 13,
+        "TAG": 5,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0195",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 4,
+      "num_tags": 4,
+      "num_edges": 6,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 2,
+        "TAG": 4,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0196",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 14,
+      "num_edges": 22,
+      "num_slots": 3,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 7,
+        "TAG": 14,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0197",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 12,
+      "num_edges": 17,
+      "num_slots": 3,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 15,
+        "TAG": 12,
+        "CG": 9
+      }
+    },
+    {
+      "graph_id": "synth_0198",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 7,
+      "num_edges": 19,
+      "num_slots": 3,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 14,
+        "TAG": 7,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0199",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 9,
+      "num_tags": 7,
+      "num_edges": 21,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 9,
+        "TAG": 7,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0200",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 5,
+      "num_tags": 3,
+      "num_edges": 8,
+      "num_slots": 1,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 1,
+        "TAG": 3,
+        "CG": 1
+      }
+    },
+    {
+      "graph_id": "synth_0201",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 10,
+      "num_edges": 17,
+      "num_slots": 3,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 20,
+        "TAG": 10,
+        "CG": 6
+      }
+    },
+    {
+      "graph_id": "synth_0202",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 5,
+      "num_tags": 7,
+      "num_edges": 7,
+      "num_slots": 2,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 1,
+        "TAG": 7,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0203",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 7,
+      "num_tags": 8,
+      "num_edges": 18,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 4,
+        "TAG": 8,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0204",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 4,
+      "num_tags": 4,
+      "num_edges": 4,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 2,
+        "TAG": 4,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0205",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 12,
+      "num_edges": 10,
+      "num_slots": 3,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 6,
+        "TAG": 12,
+        "CG": 6
+      }
+    },
+    {
+      "graph_id": "synth_0206",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 6,
+      "num_tags": 9,
+      "num_edges": 12,
+      "num_slots": 3,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 6,
+        "TAG": 9,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0207",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 3,
+      "num_edges": 24,
+      "num_slots": 1,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 7,
+        "TAG": 3,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0208",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 10,
+      "num_tags": 12,
+      "num_edges": 36,
+      "num_slots": 3,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 15,
+        "TAG": 12,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0209",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 3,
+      "num_edges": 16,
+      "num_slots": 1,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 7,
+        "TAG": 3,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0210",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 6,
+      "num_tags": 4,
+      "num_edges": 12,
+      "num_slots": 2,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 6,
+        "TAG": 4,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0211",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 14,
+      "num_edges": 13,
+      "num_slots": 5,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 20,
+        "TAG": 14,
+        "CG": 6
+      }
+    },
+    {
+      "graph_id": "synth_0212",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 9,
+      "num_tags": 13,
+      "num_edges": 17,
+      "num_slots": 3,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 10,
+        "TAG": 13,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0213",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 4,
+      "num_edges": 17,
+      "num_slots": 1,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 5,
+        "TAG": 4,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0214",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 6,
+      "num_tags": 6,
+      "num_edges": 7,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 4,
+        "TAG": 6,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0215",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 9,
+      "num_tags": 11,
+      "num_edges": 14,
+      "num_slots": 3,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 12,
+        "TAG": 11,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0216",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 11,
+      "num_edges": 12,
+      "num_slots": 5,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 24,
+        "TAG": 11,
+        "CG": 5
+      }
+    },
+    {
+      "graph_id": "synth_0217",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 4,
+      "num_tags": 6,
+      "num_edges": 3,
+      "num_slots": 3,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 1,
+        "TAG": 6,
+        "CG": 5
+      }
+    },
+    {
+      "graph_id": "synth_0218",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 5,
+      "num_tags": 8,
+      "num_edges": 8,
+      "num_slots": 3,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 4,
+        "TAG": 8,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0219",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 10,
+      "num_tags": 7,
+      "num_edges": 23,
+      "num_slots": 3,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 19,
+        "TAG": 7,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0220",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 11,
+      "num_edges": 41,
+      "num_slots": 3,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 21,
+        "TAG": 11,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0221",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 8,
+      "num_edges": 10,
+      "num_slots": 3,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 10,
+        "TAG": 8,
+        "CG": 6
+      }
+    },
+    {
+      "graph_id": "synth_0222",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 4,
+      "num_tags": 6,
+      "num_edges": 5,
+      "num_slots": 3,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 3,
+        "TAG": 6,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0223",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 9,
+      "num_tags": 13,
+      "num_edges": 23,
+      "num_slots": 5,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 27,
+        "TAG": 13,
+        "CG": 5
+      }
+    },
+    {
+      "graph_id": "synth_0224",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 10,
+      "num_tags": 13,
+      "num_edges": 37,
+      "num_slots": 4,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 23,
+        "TAG": 13,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0225",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 3,
+      "num_edges": 17,
+      "num_slots": 2,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 18,
+        "TAG": 3,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0226",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 7,
+      "num_tags": 11,
+      "num_edges": 17,
+      "num_slots": 4,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 13,
+        "TAG": 11,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0227",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 6,
+      "num_tags": 7,
+      "num_edges": 8,
+      "num_slots": 3,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 8,
+        "TAG": 7,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0228",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 6,
+      "num_tags": 10,
+      "num_edges": 7,
+      "num_slots": 4,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 10,
+        "TAG": 10,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0229",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 5,
+      "num_tags": 2,
+      "num_edges": 6,
+      "num_slots": 1,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 2,
+        "TAG": 2,
+        "CG": 1
+      }
+    },
+    {
+      "graph_id": "synth_0230",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 4,
+      "num_tags": 5,
+      "num_edges": 6,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 1,
+        "TAG": 5,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0231",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 7,
+      "num_tags": 5,
+      "num_edges": 19,
+      "num_slots": 2,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 7,
+        "TAG": 5,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0232",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 8,
+      "num_edges": 10,
+      "num_slots": 3,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 12,
+        "TAG": 8,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0233",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 11,
+      "num_tags": 13,
+      "num_edges": 34,
+      "num_slots": 3,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 17,
+        "TAG": 13,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0234",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 7,
+      "num_tags": 8,
+      "num_edges": 12,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 4,
+        "TAG": 8,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0235",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 11,
+      "num_tags": 4,
+      "num_edges": 29,
+      "num_slots": 1,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 5,
+        "TAG": 4,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0236",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 4,
+      "num_tags": 5,
+      "num_edges": 3,
+      "num_slots": 3,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 4,
+        "TAG": 5,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0237",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 9,
+      "num_tags": 9,
+      "num_edges": 25,
+      "num_slots": 3,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 15,
+        "TAG": 9,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0238",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 9,
+      "num_tags": 14,
+      "num_edges": 18,
+      "num_slots": 4,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 18,
+        "TAG": 14,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0239",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 13,
+      "num_edges": 14,
+      "num_slots": 5,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 22,
+        "TAG": 13,
+        "CG": 5
+      }
+    },
+    {
+      "graph_id": "synth_0240",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 10,
+      "num_tags": 6,
+      "num_edges": 13,
+      "num_slots": 2,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 10,
+        "TAG": 6,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0241",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 7,
+      "num_tags": 11,
+      "num_edges": 6,
+      "num_slots": 6,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 24,
+        "TAG": 11,
+        "CG": 7
+      }
+    },
+    {
+      "graph_id": "synth_0242",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 10,
+      "num_tags": 5,
+      "num_edges": 18,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 12,
+        "TAG": 5,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0243",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 7,
+      "num_tags": 9,
+      "num_edges": 9,
+      "num_slots": 3,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 9,
+        "TAG": 9,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0244",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 2,
+      "num_edges": 17,
+      "num_slots": 1,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 8,
+        "TAG": 2,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0245",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 9,
+      "num_tags": 9,
+      "num_edges": 21,
+      "num_slots": 3,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 14,
+        "TAG": 9,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0246",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 7,
+      "num_tags": 5,
+      "num_edges": 20,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 7,
+        "TAG": 5,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0247",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 10,
+      "num_tags": 2,
+      "num_edges": 21,
+      "num_slots": 1,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 7,
+        "TAG": 2,
+        "CG": 1
+      }
+    },
+    {
+      "graph_id": "synth_0248",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 6,
+      "num_edges": 10,
+      "num_slots": 2,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 5,
+        "TAG": 6,
+        "CG": 5
+      }
+    },
+    {
+      "graph_id": "synth_0249",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 11,
+      "num_tags": 12,
+      "num_edges": 29,
+      "num_slots": 3,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 18,
+        "TAG": 12,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0250",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 4,
+      "num_edges": 20,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 10,
+        "TAG": 4,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0251",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 10,
+      "num_tags": 6,
+      "num_edges": 31,
+      "num_slots": 2,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 12,
+        "TAG": 6,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0252",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 8,
+      "num_edges": 16,
+      "num_slots": 2,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 10,
+        "TAG": 8,
+        "CG": 6
+      }
+    },
+    {
+      "graph_id": "synth_0253",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 9,
+      "num_tags": 13,
+      "num_edges": 15,
+      "num_slots": 4,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 18,
+        "TAG": 13,
+        "CG": 5
+      }
+    },
+    {
+      "graph_id": "synth_0254",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 9,
+      "num_tags": 4,
+      "num_edges": 14,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 12,
+        "TAG": 4,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0255",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 2,
+      "num_edges": 49,
+      "num_slots": 1,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 9,
+        "TAG": 2,
+        "CG": 1
+      }
+    },
+    {
+      "graph_id": "synth_0256",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 3,
+      "num_edges": 17,
+      "num_slots": 1,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 7,
+        "TAG": 3,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0257",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 7,
+      "num_tags": 9,
+      "num_edges": 13,
+      "num_slots": 3,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 9,
+        "TAG": 9,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0258",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 11,
+      "num_tags": 8,
+      "num_edges": 44,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 12,
+        "TAG": 8,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0259",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 9,
+      "num_tags": 3,
+      "num_edges": 35,
+      "num_slots": 2,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 13,
+        "TAG": 3,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0260",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 5,
+      "num_edges": 10,
+      "num_slots": 3,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 16,
+        "TAG": 5,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0261",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 9,
+      "num_edges": 26,
+      "num_slots": 3,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 12,
+        "TAG": 9,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0262",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 4,
+      "num_edges": 18,
+      "num_slots": 1,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 3,
+        "TAG": 4,
+        "CG": 1
+      }
+    },
+    {
+      "graph_id": "synth_0263",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 11,
+      "num_tags": 9,
+      "num_edges": 34,
+      "num_slots": 3,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 21,
+        "TAG": 9,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0264",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 11,
+      "num_edges": 17,
+      "num_slots": 3,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 18,
+        "TAG": 11,
+        "CG": 7
+      }
+    },
+    {
+      "graph_id": "synth_0265",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 9,
+      "num_tags": 6,
+      "num_edges": 18,
+      "num_slots": 2,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 10,
+        "TAG": 6,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0266",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 5,
+      "num_tags": 7,
+      "num_edges": 8,
+      "num_slots": 4,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 9,
+        "TAG": 7,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0267",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 5,
+      "num_tags": 3,
+      "num_edges": 6,
+      "num_slots": 1,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 1,
+        "TAG": 3,
+        "CG": 1
+      }
+    },
+    {
+      "graph_id": "synth_0268",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 6,
+      "num_tags": 8,
+      "num_edges": 7,
+      "num_slots": 4,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 11,
+        "TAG": 8,
+        "CG": 5
+      }
+    },
+    {
+      "graph_id": "synth_0269",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 4,
+      "num_tags": 5,
+      "num_edges": 3,
+      "num_slots": 2,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 1,
+        "TAG": 5,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0270",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 10,
+      "num_tags": 4,
+      "num_edges": 33,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 14,
+        "TAG": 4,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0271",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 4,
+      "num_edges": 30,
+      "num_slots": 1,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 7,
+        "TAG": 4,
+        "CG": 1
+      }
+    },
+    {
+      "graph_id": "synth_0272",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 4,
+      "num_edges": 10,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 9,
+        "TAG": 4,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0273",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 10,
+      "num_edges": 44,
+      "num_slots": 3,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 23,
+        "TAG": 10,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0274",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 9,
+      "num_tags": 4,
+      "num_edges": 17,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 12,
+        "TAG": 4,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0275",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 4,
+      "num_tags": 2,
+      "num_edges": 3,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 4,
+        "TAG": 2,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0276",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 11,
+      "num_edges": 17,
+      "num_slots": 4,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 31,
+        "TAG": 11,
+        "CG": 6
+      }
+    },
+    {
+      "graph_id": "synth_0277",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 8,
+      "num_edges": 11,
+      "num_slots": 3,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 12,
+        "TAG": 8,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0278",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 7,
+      "num_tags": 9,
+      "num_edges": 9,
+      "num_slots": 4,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 15,
+        "TAG": 9,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0279",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 7,
+      "num_tags": 10,
+      "num_edges": 12,
+      "num_slots": 4,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 13,
+        "TAG": 10,
+        "CG": 5
+      }
+    },
+    {
+      "graph_id": "synth_0280",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 6,
+      "num_tags": 4,
+      "num_edges": 7,
+      "num_slots": 2,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 6,
+        "TAG": 4,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0281",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 5,
+      "num_tags": 8,
+      "num_edges": 10,
+      "num_slots": 3,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 4,
+        "TAG": 8,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0282",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 7,
+      "num_tags": 9,
+      "num_edges": 15,
+      "num_slots": 3,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 9,
+        "TAG": 9,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0283",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 4,
+      "num_tags": 4,
+      "num_edges": 3,
+      "num_slots": 3,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 5,
+        "TAG": 4,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0284",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 7,
+      "num_tags": 5,
+      "num_edges": 10,
+      "num_slots": 2,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 7,
+        "TAG": 5,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0285",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 5,
+      "num_tags": 3,
+      "num_edges": 9,
+      "num_slots": 1,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 1,
+        "TAG": 3,
+        "CG": 1
+      }
+    },
+    {
+      "graph_id": "synth_0286",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 4,
+      "num_tags": 7,
+      "num_edges": 4,
+      "num_slots": 6,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 11,
+        "TAG": 7,
+        "CG": 6
+      }
+    },
+    {
+      "graph_id": "synth_0287",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 3,
+      "num_edges": 17,
+      "num_slots": 1,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 7,
+        "TAG": 3,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0288",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 4,
+      "num_tags": 5,
+      "num_edges": 3,
+      "num_slots": 3,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 4,
+        "TAG": 5,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0289",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 5,
+      "num_tags": 3,
+      "num_edges": 8,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 5,
+        "TAG": 3,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0290",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 6,
+      "num_tags": 7,
+      "num_edges": 13,
+      "num_slots": 2,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 3,
+        "TAG": 7,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0291",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 13,
+      "num_edges": 16,
+      "num_slots": 4,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 27,
+        "TAG": 13,
+        "CG": 8
+      }
+    },
+    {
+      "graph_id": "synth_0292",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 14,
+      "num_edges": 14,
+      "num_slots": 4,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 14,
+        "TAG": 14,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0293",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 9,
+      "num_tags": 7,
+      "num_edges": 14,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 7,
+        "TAG": 7,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0294",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 4,
+      "num_tags": 2,
+      "num_edges": 6,
+      "num_slots": 1,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 1,
+        "TAG": 2,
+        "CG": 1
+      }
+    },
+    {
+      "graph_id": "synth_0295",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 4,
+      "num_edges": 17,
+      "num_slots": 2,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 17,
+        "TAG": 4,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0296",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 5,
+      "num_tags": 2,
+      "num_edges": 4,
+      "num_slots": 1,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 2,
+        "TAG": 2,
+        "CG": 1
+      }
+    },
+    {
+      "graph_id": "synth_0297",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 5,
+      "num_tags": 6,
+      "num_edges": 10,
+      "num_slots": 4,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 10,
+        "TAG": 6,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0298",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 14,
+      "num_edges": 9,
+      "num_slots": 4,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 9,
+        "TAG": 14,
+        "CG": 9
+      }
+    },
+    {
+      "graph_id": "synth_0299",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 4,
+      "num_edges": 16,
+      "num_slots": 1,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 6,
+        "TAG": 4,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0300",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 4,
+      "num_tags": 6,
+      "num_edges": 4,
+      "num_slots": 2,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 0,
+        "TAG": 6,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0301",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 4,
+      "num_tags": 6,
+      "num_edges": 6,
+      "num_slots": 3,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 3,
+        "TAG": 6,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0302",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 6,
+      "num_tags": 7,
+      "num_edges": 8,
+      "num_slots": 3,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 8,
+        "TAG": 7,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0303",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 9,
+      "num_edges": 10,
+      "num_slots": 3,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 9,
+        "TAG": 9,
+        "CG": 6
+      }
+    },
+    {
+      "graph_id": "synth_0304",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 4,
+      "num_tags": 4,
+      "num_edges": 3,
+      "num_slots": 2,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 1,
+        "TAG": 4,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0305",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 10,
+      "num_tags": 12,
+      "num_edges": 19,
+      "num_slots": 3,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 13,
+        "TAG": 12,
+        "CG": 5
+      }
+    },
+    {
+      "graph_id": "synth_0306",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 10,
+      "num_edges": 24,
+      "num_slots": 3,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 11,
+        "TAG": 10,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0307",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 4,
+      "num_edges": 10,
+      "num_slots": 1,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 2,
+        "TAG": 4,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0308",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 6,
+      "num_tags": 10,
+      "num_edges": 7,
+      "num_slots": 5,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 15,
+        "TAG": 10,
+        "CG": 5
+      }
+    },
+    {
+      "graph_id": "synth_0309",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 9,
+      "num_tags": 6,
+      "num_edges": 13,
+      "num_slots": 3,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 16,
+        "TAG": 6,
+        "CG": 5
+      }
+    },
+    {
+      "graph_id": "synth_0310",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 5,
+      "num_tags": 6,
+      "num_edges": 7,
+      "num_slots": 2,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 2,
+        "TAG": 6,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0311",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 13,
+      "num_edges": 17,
+      "num_slots": 3,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 17,
+        "TAG": 13,
+        "CG": 6
+      }
+    },
+    {
+      "graph_id": "synth_0312",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 11,
+      "num_tags": 13,
+      "num_edges": 43,
+      "num_slots": 3,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 17,
+        "TAG": 13,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0313",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 6,
+      "num_tags": 4,
+      "num_edges": 15,
+      "num_slots": 3,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 11,
+        "TAG": 4,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0314",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 11,
+      "num_tags": 10,
+      "num_edges": 32,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 10,
+        "TAG": 10,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0315",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 11,
+      "num_edges": 10,
+      "num_slots": 3,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 9,
+        "TAG": 11,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0316",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 6,
+      "num_tags": 6,
+      "num_edges": 8,
+      "num_slots": 3,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 8,
+        "TAG": 6,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0317",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 9,
+      "num_tags": 8,
+      "num_edges": 13,
+      "num_slots": 3,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 15,
+        "TAG": 8,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0318",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 7,
+      "num_tags": 2,
+      "num_edges": 18,
+      "num_slots": 1,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 4,
+        "TAG": 2,
+        "CG": 1
+      }
+    },
+    {
+      "graph_id": "synth_0319",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 3,
+      "num_edges": 10,
+      "num_slots": 2,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 11,
+        "TAG": 3,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0320",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 11,
+      "num_tags": 6,
+      "num_edges": 42,
+      "num_slots": 2,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 14,
+        "TAG": 6,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0321",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 8,
+      "num_edges": 29,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 14,
+        "TAG": 8,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0322",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 10,
+      "num_tags": 3,
+      "num_edges": 41,
+      "num_slots": 1,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 6,
+        "TAG": 3,
+        "CG": 1
+      }
+    },
+    {
+      "graph_id": "synth_0323",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 10,
+      "num_edges": 16,
+      "num_slots": 2,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 8,
+        "TAG": 10,
+        "CG": 6
+      }
+    },
+    {
+      "graph_id": "synth_0324",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 10,
+      "num_tags": 7,
+      "num_edges": 30,
+      "num_slots": 4,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 29,
+        "TAG": 7,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0325",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 4,
+      "num_tags": 2,
+      "num_edges": 5,
+      "num_slots": 1,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 1,
+        "TAG": 2,
+        "CG": 1
+      }
+    },
+    {
+      "graph_id": "synth_0326",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 10,
+      "num_tags": 12,
+      "num_edges": 42,
+      "num_slots": 4,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 24,
+        "TAG": 12,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0327",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 6,
+      "num_edges": 16,
+      "num_slots": 3,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 25,
+        "TAG": 6,
+        "CG": 5
+      }
+    },
+    {
+      "graph_id": "synth_0328",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 5,
+      "num_tags": 3,
+      "num_edges": 4,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 5,
+        "TAG": 3,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0329",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 9,
+      "num_tags": 13,
+      "num_edges": 33,
+      "num_slots": 4,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 19,
+        "TAG": 13,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0330",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 4,
+      "num_tags": 7,
+      "num_edges": 6,
+      "num_slots": 4,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 5,
+        "TAG": 7,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0331",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 5,
+      "num_edges": 10,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 7,
+        "TAG": 5,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0332",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 6,
+      "num_tags": 2,
+      "num_edges": 7,
+      "num_slots": 1,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 3,
+        "TAG": 2,
+        "CG": 1
+      }
+    },
+    {
+      "graph_id": "synth_0333",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 3,
+      "num_edges": 25,
+      "num_slots": 1,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 4,
+        "TAG": 3,
+        "CG": 1
+      }
+    },
+    {
+      "graph_id": "synth_0334",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 2,
+      "num_edges": 25,
+      "num_slots": 2,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 12,
+        "TAG": 2,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0335",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 9,
+      "num_edges": 17,
+      "num_slots": 3,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 22,
+        "TAG": 9,
+        "CG": 5
+      }
+    },
+    {
+      "graph_id": "synth_0336",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 4,
+      "num_edges": 13,
+      "num_slots": 3,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 17,
+        "TAG": 4,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0337",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 12,
+      "num_edges": 51,
+      "num_slots": 3,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 21,
+        "TAG": 12,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0338",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 9,
+      "num_edges": 39,
+      "num_slots": 2,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 13,
+        "TAG": 9,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0339",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 6,
+      "num_tags": 5,
+      "num_edges": 7,
+      "num_slots": 2,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 3,
+        "TAG": 5,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0340",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 5,
+      "num_tags": 4,
+      "num_edges": 4,
+      "num_slots": 2,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 3,
+        "TAG": 4,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0341",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 4,
+      "num_tags": 5,
+      "num_edges": 5,
+      "num_slots": 3,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 4,
+        "TAG": 5,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0342",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 5,
+      "num_tags": 3,
+      "num_edges": 9,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 5,
+        "TAG": 3,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0343",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 6,
+      "num_edges": 16,
+      "num_slots": 2,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 15,
+        "TAG": 6,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0344",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 3,
+      "num_edges": 15,
+      "num_slots": 1,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 3,
+        "TAG": 3,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0345",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 11,
+      "num_tags": 7,
+      "num_edges": 21,
+      "num_slots": 3,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 23,
+        "TAG": 7,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0346",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 7,
+      "num_edges": 17,
+      "num_slots": 3,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 23,
+        "TAG": 7,
+        "CG": 6
+      }
+    },
+    {
+      "graph_id": "synth_0347",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 10,
+      "num_tags": 10,
+      "num_edges": 28,
+      "num_slots": 3,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 17,
+        "TAG": 10,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0348",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 7,
+      "num_tags": 7,
+      "num_edges": 19,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 5,
+        "TAG": 7,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0349",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 3,
+      "num_edges": 65,
+      "num_slots": 1,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 8,
+        "TAG": 3,
+        "CG": 1
+      }
+    },
+    {
+      "graph_id": "synth_0350",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 6,
+      "num_tags": 2,
+      "num_edges": 7,
+      "num_slots": 1,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 2,
+        "TAG": 2,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0351",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 5,
+      "num_tags": 8,
+      "num_edges": 4,
+      "num_slots": 4,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 6,
+        "TAG": 8,
+        "CG": 6
+      }
+    },
+    {
+      "graph_id": "synth_0352",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 6,
+      "num_edges": 22,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 15,
+        "TAG": 6,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0353",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 6,
+      "num_tags": 4,
+      "num_edges": 6,
+      "num_slots": 2,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 5,
+        "TAG": 4,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0354",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 8,
+      "num_edges": 10,
+      "num_slots": 2,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 5,
+        "TAG": 8,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0355",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 6,
+      "num_tags": 2,
+      "num_edges": 9,
+      "num_slots": 1,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 3,
+        "TAG": 2,
+        "CG": 1
+      }
+    },
+    {
+      "graph_id": "synth_0356",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 6,
+      "num_tags": 9,
+      "num_edges": 9,
+      "num_slots": 3,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 6,
+        "TAG": 9,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0357",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 4,
+      "num_tags": 3,
+      "num_edges": 4,
+      "num_slots": 2,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 3,
+        "TAG": 3,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0358",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 9,
+      "num_tags": 11,
+      "num_edges": 12,
+      "num_slots": 3,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 10,
+        "TAG": 11,
+        "CG": 6
+      }
+    },
+    {
+      "graph_id": "synth_0359",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 11,
+      "num_edges": 15,
+      "num_slots": 3,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 9,
+        "TAG": 11,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0360",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 5,
+      "num_edges": 19,
+      "num_slots": 1,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 2,
+        "TAG": 5,
+        "CG": 1
+      }
+    },
+    {
+      "graph_id": "synth_0361",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 9,
+      "num_edges": 16,
+      "num_slots": 2,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 5,
+        "TAG": 9,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0362",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 6,
+      "num_tags": 5,
+      "num_edges": 7,
+      "num_slots": 3,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 9,
+        "TAG": 5,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0363",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 4,
+      "num_tags": 2,
+      "num_edges": 4,
+      "num_slots": 2,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 4,
+        "TAG": 2,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0364",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 6,
+      "num_tags": 4,
+      "num_edges": 12,
+      "num_slots": 1,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 1,
+        "TAG": 4,
+        "CG": 1
+      }
+    },
+    {
+      "graph_id": "synth_0365",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 11,
+      "num_tags": 7,
+      "num_edges": 48,
+      "num_slots": 2,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 13,
+        "TAG": 7,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0366",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 9,
+      "num_tags": 6,
+      "num_edges": 12,
+      "num_slots": 3,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 17,
+        "TAG": 6,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0367",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 6,
+      "num_tags": 9,
+      "num_edges": 11,
+      "num_slots": 3,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 6,
+        "TAG": 9,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0368",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 5,
+      "num_tags": 3,
+      "num_edges": 9,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 5,
+        "TAG": 3,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0369",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 4,
+      "num_edges": 50,
+      "num_slots": 1,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 7,
+        "TAG": 4,
+        "CG": 1
+      }
+    },
+    {
+      "graph_id": "synth_0370",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 8,
+      "num_edges": 16,
+      "num_slots": 3,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 23,
+        "TAG": 8,
+        "CG": 5
+      }
+    },
+    {
+      "graph_id": "synth_0371",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 10,
+      "num_tags": 9,
+      "num_edges": 17,
+      "num_slots": 3,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 16,
+        "TAG": 9,
+        "CG": 5
+      }
+    },
+    {
+      "graph_id": "synth_0372",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 5,
+      "num_tags": 9,
+      "num_edges": 5,
+      "num_slots": 5,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 10,
+        "TAG": 9,
+        "CG": 6
+      }
+    },
+    {
+      "graph_id": "synth_0373",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 2,
+      "num_edges": 36,
+      "num_slots": 1,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 9,
+        "TAG": 2,
+        "CG": 1
+      }
+    },
+    {
+      "graph_id": "synth_0374",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 6,
+      "num_tags": 3,
+      "num_edges": 12,
+      "num_slots": 1,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 2,
+        "TAG": 3,
+        "CG": 1
+      }
+    },
+    {
+      "graph_id": "synth_0375",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 6,
+      "num_tags": 4,
+      "num_edges": 11,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 6,
+        "TAG": 4,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0376",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 12,
+      "num_edges": 41,
+      "num_slots": 3,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 21,
+        "TAG": 12,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0377",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 10,
+      "num_tags": 4,
+      "num_edges": 13,
+      "num_slots": 2,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 13,
+        "TAG": 4,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0378",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 6,
+      "num_tags": 4,
+      "num_edges": 7,
+      "num_slots": 2,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 5,
+        "TAG": 4,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0379",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 9,
+      "num_tags": 7,
+      "num_edges": 26,
+      "num_slots": 3,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 17,
+        "TAG": 7,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0380",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 5,
+      "num_tags": 2,
+      "num_edges": 6,
+      "num_slots": 1,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 2,
+        "TAG": 2,
+        "CG": 1
+      }
+    },
+    {
+      "graph_id": "synth_0381",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 8,
+      "num_edges": 10,
+      "num_slots": 3,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 12,
+        "TAG": 8,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0382",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 9,
+      "num_tags": 14,
+      "num_edges": 29,
+      "num_slots": 4,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 18,
+        "TAG": 14,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0383",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 11,
+      "num_tags": 9,
+      "num_edges": 22,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 9,
+        "TAG": 9,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0384",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 5,
+      "num_tags": 2,
+      "num_edges": 7,
+      "num_slots": 1,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 2,
+        "TAG": 2,
+        "CG": 1
+      }
+    },
+    {
+      "graph_id": "synth_0385",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 2,
+      "num_edges": 17,
+      "num_slots": 1,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 9,
+        "TAG": 2,
+        "CG": 1
+      }
+    },
+    {
+      "graph_id": "synth_0386",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 11,
+      "num_edges": 33,
+      "num_slots": 3,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 22,
+        "TAG": 11,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0387",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 7,
+      "num_tags": 9,
+      "num_edges": 11,
+      "num_slots": 4,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 15,
+        "TAG": 9,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0388",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 6,
+      "num_tags": 5,
+      "num_edges": 13,
+      "num_slots": 2,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 5,
+        "TAG": 5,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0389",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 6,
+      "num_tags": 8,
+      "num_edges": 7,
+      "num_slots": 3,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 6,
+        "TAG": 8,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0390",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 6,
+      "num_edges": 45,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 16,
+        "TAG": 6,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0391",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 4,
+      "num_tags": 4,
+      "num_edges": 4,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 2,
+        "TAG": 4,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0392",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 7,
+      "num_tags": 6,
+      "num_edges": 14,
+      "num_slots": 2,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 6,
+        "TAG": 6,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0393",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 11,
+      "num_edges": 17,
+      "num_slots": 2,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 8,
+        "TAG": 11,
+        "CG": 5
+      }
+    },
+    {
+      "graph_id": "synth_0394",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 2,
+      "num_edges": 46,
+      "num_slots": 1,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 9,
+        "TAG": 2,
+        "CG": 1
+      }
+    },
+    {
+      "graph_id": "synth_0395",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 3,
+      "num_edges": 53,
+      "num_slots": 1,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 8,
+        "TAG": 3,
+        "CG": 1
+      }
+    },
+    {
+      "graph_id": "synth_0396",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 6,
+      "num_tags": 6,
+      "num_edges": 10,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 4,
+        "TAG": 6,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0397",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 2,
+      "num_edges": 17,
+      "num_slots": 1,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 8,
+        "TAG": 2,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0398",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 7,
+      "num_tags": 2,
+      "num_edges": 10,
+      "num_slots": 1,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 3,
+        "TAG": 2,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0399",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 11,
+      "num_tags": 9,
+      "num_edges": 35,
+      "num_slots": 3,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 21,
+        "TAG": 9,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0400",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 7,
+      "num_tags": 2,
+      "num_edges": 18,
+      "num_slots": 1,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 4,
+        "TAG": 2,
+        "CG": 1
+      }
+    },
+    {
+      "graph_id": "synth_0401",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 8,
+      "num_edges": 17,
+      "num_slots": 2,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 11,
+        "TAG": 8,
+        "CG": 5
+      }
+    },
+    {
+      "graph_id": "synth_0402",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 11,
+      "num_tags": 8,
+      "num_edges": 42,
+      "num_slots": 3,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 22,
+        "TAG": 8,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0403",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 5,
+      "num_tags": 4,
+      "num_edges": 10,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 4,
+        "TAG": 4,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0404",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 11,
+      "num_tags": 4,
+      "num_edges": 29,
+      "num_slots": 1,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 5,
+        "TAG": 4,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0405",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 6,
+      "num_edges": 17,
+      "num_slots": 2,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 14,
+        "TAG": 6,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0406",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 11,
+      "num_tags": 9,
+      "num_edges": 30,
+      "num_slots": 3,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 21,
+        "TAG": 9,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0407",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 6,
+      "num_tags": 8,
+      "num_edges": 13,
+      "num_slots": 3,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 7,
+        "TAG": 8,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0408",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 9,
+      "num_edges": 14,
+      "num_slots": 3,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 12,
+        "TAG": 9,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0409",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 6,
+      "num_tags": 8,
+      "num_edges": 7,
+      "num_slots": 3,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 6,
+        "TAG": 8,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0410",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 6,
+      "num_edges": 8,
+      "num_slots": 2,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 7,
+        "TAG": 6,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0411",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 4,
+      "num_tags": 4,
+      "num_edges": 4,
+      "num_slots": 3,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 5,
+        "TAG": 4,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0412",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 4,
+      "num_edges": 11,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 10,
+        "TAG": 4,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0413",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 8,
+      "num_edges": 16,
+      "num_slots": 3,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 23,
+        "TAG": 8,
+        "CG": 5
+      }
+    },
+    {
+      "graph_id": "synth_0414",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 10,
+      "num_tags": 5,
+      "num_edges": 18,
+      "num_slots": 2,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 13,
+        "TAG": 5,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0415",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 5,
+      "num_tags": 7,
+      "num_edges": 4,
+      "num_slots": 3,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 5,
+        "TAG": 7,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0416",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 10,
+      "num_tags": 12,
+      "num_edges": 31,
+      "num_slots": 4,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 24,
+        "TAG": 12,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0417",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 7,
+      "num_edges": 10,
+      "num_slots": 3,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 11,
+        "TAG": 7,
+        "CG": 6
+      }
+    },
+    {
+      "graph_id": "synth_0418",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 9,
+      "num_tags": 4,
+      "num_edges": 22,
+      "num_slots": 2,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 12,
+        "TAG": 4,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0419",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 10,
+      "num_tags": 10,
+      "num_edges": 15,
+      "num_slots": 3,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 15,
+        "TAG": 10,
+        "CG": 5
+      }
+    },
+    {
+      "graph_id": "synth_0420",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 5,
+      "num_tags": 6,
+      "num_edges": 7,
+      "num_slots": 4,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 10,
+        "TAG": 6,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0421",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 6,
+      "num_edges": 10,
+      "num_slots": 3,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 14,
+        "TAG": 6,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0422",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 7,
+      "num_tags": 6,
+      "num_edges": 15,
+      "num_slots": 2,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 6,
+        "TAG": 6,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0423",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 4,
+      "num_tags": 7,
+      "num_edges": 6,
+      "num_slots": 3,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 2,
+        "TAG": 7,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0424",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 10,
+      "num_tags": 12,
+      "num_edges": 23,
+      "num_slots": 3,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 15,
+        "TAG": 12,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0425",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 6,
+      "num_tags": 3,
+      "num_edges": 7,
+      "num_slots": 3,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 12,
+        "TAG": 3,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0426",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 11,
+      "num_tags": 12,
+      "num_edges": 22,
+      "num_slots": 3,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 17,
+        "TAG": 12,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0427",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 6,
+      "num_edges": 17,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 8,
+        "TAG": 6,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0428",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 9,
+      "num_edges": 22,
+      "num_slots": 3,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 12,
+        "TAG": 9,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0429",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 5,
+      "num_edges": 10,
+      "num_slots": 2,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 8,
+        "TAG": 5,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0430",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 9,
+      "num_tags": 5,
+      "num_edges": 26,
+      "num_slots": 1,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 3,
+        "TAG": 5,
+        "CG": 1
+      }
+    },
+    {
+      "graph_id": "synth_0431",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 7,
+      "num_edges": 45,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 15,
+        "TAG": 7,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0432",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 11,
+      "num_tags": 8,
+      "num_edges": 24,
+      "num_slots": 2,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 11,
+        "TAG": 8,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0433",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 6,
+      "num_tags": 7,
+      "num_edges": 7,
+      "num_slots": 3,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 7,
+        "TAG": 7,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0434",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 11,
+      "num_tags": 12,
+      "num_edges": 36,
+      "num_slots": 3,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 17,
+        "TAG": 12,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0435",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 10,
+      "num_tags": 9,
+      "num_edges": 22,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 7,
+        "TAG": 9,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0436",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 9,
+      "num_tags": 13,
+      "num_edges": 33,
+      "num_slots": 3,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 11,
+        "TAG": 13,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0437",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 9,
+      "num_tags": 10,
+      "num_edges": 12,
+      "num_slots": 5,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 30,
+        "TAG": 10,
+        "CG": 5
+      }
+    },
+    {
+      "graph_id": "synth_0438",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 6,
+      "num_tags": 8,
+      "num_edges": 10,
+      "num_slots": 3,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 7,
+        "TAG": 8,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0439",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 5,
+      "num_tags": 3,
+      "num_edges": 6,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 5,
+        "TAG": 3,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0440",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 4,
+      "num_tags": 3,
+      "num_edges": 6,
+      "num_slots": 1,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 0,
+        "TAG": 3,
+        "CG": 1
+      }
+    },
+    {
+      "graph_id": "synth_0441",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 4,
+      "num_edges": 10,
+      "num_slots": 2,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 10,
+        "TAG": 4,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0442",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 7,
+      "num_edges": 47,
+      "num_slots": 2,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 15,
+        "TAG": 7,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0443",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 4,
+      "num_tags": 2,
+      "num_edges": 5,
+      "num_slots": 1,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 1,
+        "TAG": 2,
+        "CG": 1
+      }
+    },
+    {
+      "graph_id": "synth_0444",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 10,
+      "num_tags": 11,
+      "num_edges": 31,
+      "num_slots": 3,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 16,
+        "TAG": 11,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0445",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 10,
+      "num_edges": 17,
+      "num_slots": 4,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 34,
+        "TAG": 10,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0446",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 4,
+      "num_tags": 2,
+      "num_edges": 3,
+      "num_slots": 1,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 0,
+        "TAG": 2,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0447",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 6,
+      "num_tags": 4,
+      "num_edges": 13,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 6,
+        "TAG": 4,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0448",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 5,
+      "num_tags": 5,
+      "num_edges": 7,
+      "num_slots": 3,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 7,
+        "TAG": 5,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0449",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 6,
+      "num_tags": 8,
+      "num_edges": 7,
+      "num_slots": 3,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 6,
+        "TAG": 8,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0450",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 6,
+      "num_tags": 10,
+      "num_edges": 9,
+      "num_slots": 3,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 5,
+        "TAG": 10,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0451",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 4,
+      "num_tags": 5,
+      "num_edges": 6,
+      "num_slots": 3,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 4,
+        "TAG": 5,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0452",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 8,
+      "num_edges": 27,
+      "num_slots": 2,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 6,
+        "TAG": 8,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0453",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 2,
+      "num_edges": 10,
+      "num_slots": 1,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 4,
+        "TAG": 2,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0454",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 4,
+      "num_tags": 2,
+      "num_edges": 3,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 4,
+        "TAG": 2,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0455",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 6,
+      "num_tags": 3,
+      "num_edges": 12,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 7,
+        "TAG": 3,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0456",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 4,
+      "num_tags": 7,
+      "num_edges": 4,
+      "num_slots": 4,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 5,
+        "TAG": 7,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0457",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 8,
+      "num_edges": 17,
+      "num_slots": 2,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 12,
+        "TAG": 8,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0458",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 11,
+      "num_tags": 13,
+      "num_edges": 35,
+      "num_slots": 4,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 25,
+        "TAG": 13,
+        "CG": 6
+      }
+    },
+    {
+      "graph_id": "synth_0459",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 6,
+      "num_tags": 10,
+      "num_edges": 15,
+      "num_slots": 3,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 5,
+        "TAG": 10,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0460",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 7,
+      "num_tags": 8,
+      "num_edges": 17,
+      "num_slots": 4,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 16,
+        "TAG": 8,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0461",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 10,
+      "num_tags": 14,
+      "num_edges": 13,
+      "num_slots": 6,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 38,
+        "TAG": 14,
+        "CG": 8
+      }
+    },
+    {
+      "graph_id": "synth_0462",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 6,
+      "num_tags": 4,
+      "num_edges": 10,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 5,
+        "TAG": 4,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0463",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 4,
+      "num_tags": 2,
+      "num_edges": 6,
+      "num_slots": 1,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 1,
+        "TAG": 2,
+        "CG": 1
+      }
+    },
+    {
+      "graph_id": "synth_0464",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 9,
+      "num_tags": 8,
+      "num_edges": 23,
+      "num_slots": 3,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 16,
+        "TAG": 8,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0465",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 12,
+      "num_edges": 17,
+      "num_slots": 3,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 18,
+        "TAG": 12,
+        "CG": 6
+      }
+    },
+    {
+      "graph_id": "synth_0466",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 7,
+      "num_tags": 10,
+      "num_edges": 14,
+      "num_slots": 4,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 14,
+        "TAG": 10,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0467",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 8,
+      "num_edges": 13,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 4,
+        "TAG": 8,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0468",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 5,
+      "num_tags": 6,
+      "num_edges": 7,
+      "num_slots": 3,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 6,
+        "TAG": 6,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0469",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 4,
+      "num_tags": 2,
+      "num_edges": 4,
+      "num_slots": 1,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 0,
+        "TAG": 2,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0470",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 8,
+      "num_edges": 12,
+      "num_slots": 3,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 12,
+        "TAG": 8,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0471",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 11,
+      "num_tags": 8,
+      "num_edges": 20,
+      "num_slots": 3,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 21,
+        "TAG": 8,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0472",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 4,
+      "num_edges": 40,
+      "num_slots": 1,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 7,
+        "TAG": 4,
+        "CG": 1
+      }
+    },
+    {
+      "graph_id": "synth_0473",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 9,
+      "num_tags": 12,
+      "num_edges": 12,
+      "num_slots": 4,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 17,
+        "TAG": 12,
+        "CG": 7
+      }
+    },
+    {
+      "graph_id": "synth_0474",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 11,
+      "num_tags": 2,
+      "num_edges": 33,
+      "num_slots": 1,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 8,
+        "TAG": 2,
+        "CG": 1
+      }
+    },
+    {
+      "graph_id": "synth_0475",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 10,
+      "num_tags": 11,
+      "num_edges": 33,
+      "num_slots": 5,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 34,
+        "TAG": 11,
+        "CG": 5
+      }
+    },
+    {
+      "graph_id": "synth_0476",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 10,
+      "num_tags": 8,
+      "num_edges": 16,
+      "num_slots": 3,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 19,
+        "TAG": 8,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0477",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 10,
+      "num_tags": 7,
+      "num_edges": 13,
+      "num_slots": 2,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 8,
+        "TAG": 7,
+        "CG": 5
+      }
+    },
+    {
+      "graph_id": "synth_0478",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 7,
+      "num_tags": 11,
+      "num_edges": 6,
+      "num_slots": 6,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 25,
+        "TAG": 11,
+        "CG": 6
+      }
+    },
+    {
+      "graph_id": "synth_0479",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 10,
+      "num_tags": 4,
+      "num_edges": 18,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 13,
+        "TAG": 4,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0480",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 6,
+      "num_edges": 26,
+      "num_slots": 3,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 15,
+        "TAG": 6,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0481",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 11,
+      "num_edges": 17,
+      "num_slots": 3,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 20,
+        "TAG": 11,
+        "CG": 5
+      }
+    },
+    {
+      "graph_id": "synth_0482",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 5,
+      "num_edges": 16,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 9,
+        "TAG": 5,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0483",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 3,
+      "num_edges": 23,
+      "num_slots": 1,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 7,
+        "TAG": 3,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0484",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 10,
+      "num_tags": 13,
+      "num_edges": 39,
+      "num_slots": 3,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 14,
+        "TAG": 13,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0485",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 11,
+      "num_edges": 16,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 7,
+        "TAG": 11,
+        "CG": 6
+      }
+    },
+    {
+      "graph_id": "synth_0486",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 11,
+      "num_edges": 26,
+      "num_slots": 4,
+      "cg_threshold": 25,
+      "action_distribution": {
+        "OFF": 33,
+        "TAG": 11,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0487",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 7,
+      "num_tags": 2,
+      "num_edges": 12,
+      "num_slots": 1,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 4,
+        "TAG": 2,
+        "CG": 1
+      }
+    },
+    {
+      "graph_id": "synth_0488",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 2,
+      "num_edges": 12,
+      "num_slots": 1,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 5,
+        "TAG": 2,
+        "CG": 1
+      }
+    },
+    {
+      "graph_id": "synth_0489",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 9,
+      "num_tags": 3,
+      "num_edges": 12,
+      "num_slots": 1,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 4,
+        "TAG": 3,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0490",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 9,
+      "num_edges": 28,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 12,
+        "TAG": 9,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0491",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 5,
+      "num_tags": 4,
+      "num_edges": 10,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 4,
+        "TAG": 4,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0492",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 6,
+      "num_tags": 5,
+      "num_edges": 11,
+      "num_slots": 2,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 5,
+        "TAG": 5,
+        "CG": 2
+      }
+    },
+    {
+      "graph_id": "synth_0493",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 12,
+      "num_tags": 8,
+      "num_edges": 17,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 12,
+        "TAG": 8,
+        "CG": 4
+      }
+    },
+    {
+      "graph_id": "synth_0494",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 4,
+      "num_edges": 18,
+      "num_slots": 1,
+      "cg_threshold": 20,
+      "action_distribution": {
+        "OFF": 3,
+        "TAG": 4,
+        "CG": 1
+      }
+    },
+    {
+      "graph_id": "synth_0495",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 7,
+      "num_tags": 10,
+      "num_edges": 9,
+      "num_slots": 4,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 13,
+        "TAG": 10,
+        "CG": 5
+      }
+    },
+    {
+      "graph_id": "synth_0496",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 10,
+      "num_tags": 11,
+      "num_edges": 23,
+      "num_slots": 4,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 24,
+        "TAG": 11,
+        "CG": 5
+      }
+    },
+    {
+      "graph_id": "synth_0497",
+      "generation_type": "lattice",
+      "solver_mode": "normal",
+      "num_nodes": 8,
+      "num_tags": 14,
+      "num_edges": 10,
+      "num_slots": 5,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 18,
+        "TAG": 14,
+        "CG": 8
+      }
+    },
+    {
+      "graph_id": "synth_0498",
+      "generation_type": "random",
+      "solver_mode": "normal",
+      "num_nodes": 9,
+      "num_tags": 2,
+      "num_edges": 24,
+      "num_slots": 1,
+      "cg_threshold": 30,
+      "action_distribution": {
+        "OFF": 6,
+        "TAG": 2,
+        "CG": 1
+      }
+    },
+    {
+      "graph_id": "synth_0499",
+      "generation_type": "geometricr",
+      "solver_mode": "normal",
+      "num_nodes": 6,
+      "num_tags": 5,
+      "num_edges": 15,
+      "num_slots": 3,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 10,
+        "TAG": 5,
+        "CG": 3
+      }
+    },
+    {
+      "graph_id": "synth_0500",
+      "generation_type": "geometric",
+      "solver_mode": "normal",
+      "num_nodes": 6,
+      "num_tags": 8,
+      "num_edges": 14,
+      "num_slots": 2,
+      "cg_threshold": 0,
+      "action_distribution": {
+        "OFF": 2,
+        "TAG": 8,
+        "CG": 2
+      }
+    }
+  ]
+}
